@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gulp Template</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Task step one - Header</title>
 </head>
+
 <body>
-    Тестовая главная страничка
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <a href="/" class="header__top--logo">
+                        <img src="images/Logo.png" alt="Logo">
+                    </a>
+                    <div class="header__top--content">
+                        <div class="header__menu">
+                            <ul class="header__menu--nav">
+                                <li><a href="#">Каталог инструментов</a></li>
+                                <li><a href="#">Все для сада</a></li>
+                                <li><a href="#">Ручной инструмент</a></li>
+                                <li><a href="#">Электрика</a></li>
+                                <li><a href="#">Доставка</a></li>
+                                <li><a href="#">Оплата</a></li>
+                                <li><a href="#">О нас</a></li>
+                            </ul>
+                            <div class="header__menu--auth">
+                                <a href="#">Вход</a>
+                                <a href="#">Регистрация</a>
+                            </div>
+                        </div>
+                        <div class="header__submenu">
+                            <div class="header__banner">
+                                <div class="header__banner--inner">
+
+                                </div>
+                            </div>
+                            <div class="header__basket">
+                                <ul class="header__basket--menu">
+                                    <li class="big">
+                                        <a href="#">
+                                            <img src="images/cart.png" alt="cart">
+                                            <span>3 шт. / 17 250 р.</span>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                        <a href="#">
+                                            <img src="images/star.png" alt="star">
+                                            <span> Избранное (7)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                        <a href="#">
+                                            <img src="images/balance.png" alt="cart">
+                                            <span> К сравнению (5)</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__basket--preview">
+                                    <a href="#"><img src="images/3.png" alt="3"></a>
+                                    <a href="#"><img src="images/2.png" alt="2"></a>
+                                    <a href="#"><img src="images/1.png" alt="1"></a>
+                                </div>
+                            </div>
+                            <div class="header__contacts">
+                                <div class="header__contacts--time">
+                                    Время работы: <span>10:00 — 19:00</span>      
+                                </div>
+                                <div class="header__contacts--phone">
+                                    <a href="tel:84957212525">8 495 721-25-25</a>
+                                </div>
+                                <div class="header__contacts--city">
+                                    <span>Москва</span>
+                                    <a href="#">сменить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__nav">
+                    <a href="#" class="header__nav--search">
+                        <img src="images/search.png" alt="search">
+                    </a>
+                    <ul class="header__nav--nav">
+                        <li class="active">
+                            <a href="#">Перфораторы</a>
+                        </li>
+                        <li>
+                            <a href="#">Дрели</a>
+                        </li>
+                        <li>
+                            <a href="#">Шлифмашины</a>
+                        </li>
+                        <li>
+                            <a href="#">Пистолеты</a>
+                        </li>
+                        <li>
+                            <a href="#">Электропилы</a>
+                        </li>
+                        <li>
+                            <a href="#">Наборы инструментов</a>
+                        </li>
+                        <li>
+                            <a href="#">Аксессуары</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="header__nav--sale">
+                        Распродажа
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="example">
+            <div class="container">
+                content
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                footer
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
