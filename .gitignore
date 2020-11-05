@@ -1,0 +1,12 @@
+/.gulp-scss-cache
+/.sass-cache
+/build
+/build/*.*
+/node_modules
+
+.DS_Store
+Thumbs.db
+.idea
+*.sublime*
+.vscode
+*.log*
